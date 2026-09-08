@@ -333,7 +333,16 @@ i {
     font-size: 1.5rem;
     margin: 0 1.2rem;
 }
-
+.Download-Button-Containe{
+    border-radius: 10px;
+}
+.Button-Container2 a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+    margin-top: 10px;
+}
 @media (max-width:425px) {
     body {
         width: 100%;
@@ -486,5 +495,8 @@ i {
 
     #buttom {
         width: 100;
+    }
+    .footer-note{
+        margin: 20px 0;
     }
 }
